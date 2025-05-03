@@ -83,6 +83,48 @@ Each model is evaluated using:
 - Feature importance is visualized for models like Random Forest and XGBoost  
 - Final model selected based on overall accuracy and F1-score on the test data  
 
+## 📥 How to Clone the Repository
+
+To get a local copy of this project up and running, run the following commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Change to the project directory
+cd your-repo-name
+
+# (Optional) Set up a virtual environment
+python -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+
+# Install required packages
+pip install -r requirements.txt
+
+# Start Jupyter Notebook
+jupyter notebook
+```
+
+---
+
+## ✅ Requirements
+
+Ensure the following libraries are installed:
+
+- `numpy`  
+- `pandas`  
+- `matplotlib`  
+- `seaborn`  
+- `scikit-learn`  
+- `xgboost`  
+- `lightgbm`  
+- `jupyter`
+
+To create a `requirements.txt`, run:
+
+```bash
+pip freeze > requirements.txt
+```
 ---
 
 ## 🧠 Conclusion
